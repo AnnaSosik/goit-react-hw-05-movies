@@ -1,6 +1,9 @@
+import React, { useEffect, useState } from 'react';
+import EditorList from 'pages/EditorList/EditorList';
+import { fetchTrending } from 'services/Tmbd';
 import Loader from 'components/Loader/Loader';
 
-const Home = () => {
+export const Home = () => {
   const [films, setFilms] = useState([]);
   const [loading, setLoading] = useState(false);
 

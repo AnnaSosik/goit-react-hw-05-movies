@@ -10,8 +10,9 @@ export const Container = styled.div`
 `;
 
 export const Header = styled.header`
-  border-bottom: solid 1px grey;
+  border-bottom: solid 1px white;
   margin-bottom: 20px;
+
 `;
 
 export const Link = styled(NavLink)`
@@ -19,11 +20,11 @@ export const Link = styled(NavLink)`
   text-decoration: none;
   padding: 14px;
   margin-left: 10px;
-  font-weight: 600;
-  font-size: 22px;
-  color: #191d1e;
+  font-weight: 800;
+  font-size: 26px;
+  color: #FFE4B5;
 
   &:hover {
-    color: tomato;
+    color: #FFD700;
   }
 `;

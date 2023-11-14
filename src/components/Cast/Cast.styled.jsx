@@ -2,6 +2,8 @@ import styled from '@emotion/styled';
 
 export const List = styled.ul`
   list-style-type: none;
+  align-items: center;
+
 `;
 
 export const Text = styled.p`
